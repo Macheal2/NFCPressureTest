@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="include_height">50.0dip</dimen>
+    <dimen name="large_include_height">80.0dip</dimen>
+    <dimen name="fontSize">15.0sp</dimen>
+    <dimen name="fontmidSize">25.0sp</dimen>
+    <dimen name="fontMinSize">10.0sp</dimen>
+    <dimen name="include_width">60.0dip</dimen>
+    <dimen name="pad">15.0dip</dimen>
+    <dimen name="m_left">20.0dip</dimen>
+    <dimen name="mix_size">1.0dip</dimen>
+    <dimen name="mix_new_size">5.0dip</dimen>
+    <dimen name="round_r">30.0dip</dimen>
+    <dimen name="m_top">60.0dip</dimen>
+</resources>

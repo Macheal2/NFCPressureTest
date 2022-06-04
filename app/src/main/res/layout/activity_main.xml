@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pop_txt_bg"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start_tag"
+        android:textColor="@color/black_dan"
+        android:textSize="@dimen/fontSize" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text="@string/nfc_a0"
+                android:id="@+id/nfc_info"
+                android:textColor="@color/black_dan"
+                android:textSize="@dimen/fontSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/nfc_info_a0"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black_dan"
+                android:textSize="@dimen/fontSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nfc_info_a4"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black_dan"
+                android:textSize="@dimen/fontSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nfc_info_b0"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black_dan"
+                android:textSize="@dimen/fontSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nfc_info_b4"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black_dan"
+                android:textSize="@dimen/fontSize" />
+
+            <TextView android:id="@+id/nfc_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="#ffff000f"
+                android:textSize="@dimen/fontSize"
+                android:text="@string/nfc_status"
+                />
+            <Button android:id="@+id/nfc_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nfc_switch"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+                <TextView android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/nfc_total_times"
+                    android:textColor="@color/black_dan"
+                    android:textSize="14sp" />
+                <TextView android:id="@+id/success"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/nfc_success_times"
+                    android:textColor="#ff009A00"
+                    android:textSize="14sp" />
+                <TextView android:id="@+id/failed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/nfc_failed_times"
+                    android:textColor="#FFca0000"
+                    android:textSize="14sp" />
+
+                <Button android:id="@+id/reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nfc_reset" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/nfc_layout_tag1"
+                    android:textColor="@color/black_dan"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"
+                    android:text="@string/nfc_layout_tag2"
+                    android:textColor="@color/black_dan"
+                    android:textSize="14sp" />
+
+                <TextView android:id="@+id/tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/nfc_max_times_tip"
+                    android:textColor="#ffff000f"
+                    android:visibility="gone"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NFC压测</string>
+    <string name="start_tag">测试将在2后秒开始运行</string>
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+
+    <string name="nfc_layout_tag">请让NFC标签贴近天线。</string>
+    <string name="nfc_a0">请把A卡放置0cm测试</string>
+    <string name="nfc_b4">请把B卡放置4cm测试</string>
+    <string name="nfc_a4">请把A卡放置4cm测试</string>
+    <string name="nfc_b0">请把B卡放置0cm测试</string>
+    <string name="nfc_info_a0">A卡放置0cm: %s</string>
+    <string name="nfc_info_a4">A卡放置4cm: %s</string>
+    <string name="nfc_info_b0">B卡放置0cm: %s</string>
+    <string name="nfc_info_b4">B卡放置4cm: %s</string>
+
+    <string name="nfc_layout_tag1">NFC将自动启用</string>
+    <string name="nfc_layout_tag2">请让NFC标签接近天线。</string>
+
+    <string name="nfc_total_times">NFC测试总次数: %d</string>
+    <string name="nfc_success_times">NFC成功次数: %d</string>
+    <string name="nfc_failed_times">NFC失败次数: %d</string>
+    <string name="nfc_reset">NFC测试次数重置</string>
+    <string name="nfc_max_times_tip">%d次，NFC测试已完成</string>
+
+    <string name="nfc_status">NFC关闭，点击下方按钮去打开</string>
+    <string name="nfc_switch">NFC开关</string>
+</resources>

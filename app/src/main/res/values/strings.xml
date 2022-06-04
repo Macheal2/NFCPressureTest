@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NFCPressureTest</string>
+    <string name="start_tag">Test will run in 2 seconds start</string>
+    <string name="success">success</string>
+    <string name="fail">fail</string>
+    <string name="nfc_a0">Please place the A card at 0cm for testing</string>
+    <string name="nfc_b4">Please place the B card at 4cm for testing</string>
+    <string name="nfc_a4">Please place the A card at 4cm for testing</string>
+    <string name="nfc_b0">Please place the B card at 0cm for testing</string>
+    <string name="nfc_info_a0">A card at 0 cm:  %s</string>
+    <string name="nfc_info_a4">A card at 4 cm:  %s</string>
+    <string name="nfc_info_b0">B card at 0 cm:  %s</string>
+    <string name="nfc_info_b4">B card at 4 cm:  %s</string>
+
+    <string name="nfc_layout_tag">Please let NFC tag get close to antenna</string>
+    <string name="nfc_layout_tag1">NFC will enable automatically.</string>
+    <string name="nfc_layout_tag2">Please let NFC tags get close to antenna.</string>
+
+    <string name="nfc_total_times">NFC total times: %d</string>
+    <string name="nfc_success_times">NFC success times: %d</string>
+    <string name="nfc_failed_times">NFC failed times: %d</string>
+    <string name="nfc_reset">NFC reset times</string>
+    <string name="nfc_max_times_tip">%d times, NFC test already done.</string>
+    <string name="nfc_status">NFC is disable, please click the below button to open it.</string>
+    <string name="nfc_switch">NFC switch</string>
+</resources>
